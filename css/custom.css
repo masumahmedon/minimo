@@ -1,0 +1,258 @@
+/*font face link start*/
+@font-face{
+	src:url(../fonts/playfair-display/playfairdisplay-regular.otf);
+	font-family:playfairdisplay-regular.otf;
+}
+@font-face{
+	src:url(../fonts/playfair-display/playfairdisplay- black.otf);
+	font-family:playfairdisplay-black.otf;
+}
+@font-face{
+	src:url(../fonts/playfair-display/playfairdisplay- black.otf);
+	font-family:playfairdisplay-black.otf;
+}
+@font-face{
+	src:url(../fonts/ubuntu/ubuntu-l.ttf);
+	font-family:ubuntu-l.ttf;
+}
+@font-face{
+	src:url(../fonts/ubuntu/ubuntu-l.ttf);
+	font-family:ubuntu-l.ttf;
+}
+/*font face link end*/
+/*common css start*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:playfair-display;
+	font-size:16px;
+	font-weight:400;
+	color:626262;
+}
+/*common css start*/
+/*header section start*/
+header{
+    padding:25px 0;
+}
+.container{
+	margin:0 auto;
+	width:90%;
+	overflow:hidden;
+}
+.logo{
+	margin-top:6px;
+	width:13%;
+	float:left;
+}
+.logo a{}
+.logo img{
+	width:100%;
+}
+.menu{
+	width:70%;
+	float:right;
+}
+.menu ul{
+	list-style:none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 13px 42px;
+	display:inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform:uppercase;
+	border-bottom: 2px solid transparent;
+	transition:.33s;
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header section end*/
+/*banner section start*/
+.banner{}
+.b_img{}
+.b_img img{
+    width: 100%;
+}
+/*banner section end*/
+/*weekend section start*/
+.weekend{
+    padding:80px 0;
+}
+.container2{
+	margin:0 auto;
+	width:80%;
+	overflow:hidden;
+}
+.w_content{}
+.c_tag{
+	font-family:ubuntu;
+	font-size:14px;
+	font-weight:300;
+	text-transform:uppercase;
+	color:#626262;
+}
+.c_title{
+	margin:15px 0 25px;
+    font-family:PlayfairDisplay;
+    font-size:30px;
+    font-weight:400;
+    color:#626262;
+}
+.c_text{
+	font-family:PlayfairDisplay;
+    color:#626262;
+    line-height:24px;
+}
+.mb_45{
+	 margin-bottom:45px;
+}
+/*weekend section end*/
+/*single blog start*/
+.blog{
+	padding:0 0 80px;
+}
+.s_blog{
+	margin-top:80px;
+    width:47%;
+    float:left;
+    box-sizing:border-box;}
+.s_blog:nth-child(even){
+	margin-left:6%;
+}
+.s_img{
+	margin-bottom:20px;
+}
+.s_img img{
+    width:100%;
+}
+/*single blog end*/
+/*newa section start*/
+.new{
+	padding:70px 0;
+	background-color:#f0f0f0;
+}
+.singup{
+	text-align:center;
+}
+.s_h1{
+	margin-top: 0;
+	margin-bottom:70px;
+	color: #333333;
+}
+
+.s_form{
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+}
+.s_form input{
+    padding-left:5px ;
+    padding-right: 45px;
+    width: 350px;
+    height: 45px;
+    font-family:PlayfairDisplay;
+    font-size:14px;
+    color:#626262;
+    border: none;
+    border-bottom:1px solid #000000;
+    background-color: transparent;
+}
+.s_form input:focus{
+	outline:0;
+}
+.s_form button{
+	position:absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0px;
+}
+.s_form button:focus{
+	outline:0;
+}
+.s_form button img{}
+/*newa section end*/
+/*button section start*/
+.button{
+    margin: 145px 180px;
+    text-align: center;
+}
+.container2{}
+.btn{}
+.btn a{
+    display: inline-block;
+    padding: 24px 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #626262;
+    border-radius: 7px;
+    border: 1px solid #626262;
+    transition: .33s;
+}
+.btn a:hover{
+	color: #626262;
+    background:#333333;
+}
+/*button section end*/
+/*footer section start*/
+.footer{
+	padding: 36px 0;
+    background-color: #f0f0f0;}
+.container2{}
+.f_left{
+	width: 40%;
+    float: left;
+}
+.f_left ul{
+	overflow: hidden;
+}
+.f_left ul li{
+	list-style: none;
+    float: left;
+}
+.f_left ul li a{
+	margin: 0px 15px;
+    display: inline-block;
+    font-size:20px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+.f_right{
+	width: 50%;
+    float: right;
+}
+.f_right ul{
+	float: right;
+}
+.f_right ul li{
+	list-style: none;
+    float: left;
+}
+.f_right ul li a{
+	padding: 0px 8px;
+    display: inline-block;
+    font-size:20px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+.f_p{
+	padding: 0px 15px;
+    font-size:20px;
+    font-weight: 700;
+    color: #000;
+	float: left;
+}
+/*footer section end*/
